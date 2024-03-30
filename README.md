@@ -34,11 +34,11 @@ python food_api.py
 애플리케이션이 실행되면 http://127.0.0.1:5000/에서 API 엔드포인트에 접근할 수 있습니다.
 
 ### 엔드포인트
-GET /foods - 모든 식품 항목을 검색합니다.
-GET /foods/<id> - ID로 특정 식품 항목을 검색합니다.
-POST /foods - 새로운 식품 항목을 추가합니다.
-PUT /foods/<id> - 기존 식품 항목을 갱신합니다.
-DELETE /foods/<id> - 식품 항목을 삭제합니다.
+GET /foods - 모든 식품 항목을 검색합니다.  
+GET /foods/<id> - ID로 특정 식품 항목을 검색합니다.  
+POST /foods - 새로운 식품 항목을 추가합니다.  
+PUT /foods/<id> - 기존 식품 항목을 갱신합니다.  
+DELETE /foods/<id> - 식품 항목을 삭제합니다.  
 
 ### 요청 예시
 
@@ -57,10 +57,10 @@ print(response.json())
 ```
 
 ## 기술 스택
-Flask: API를 구축하기 위한 웹 프레임워크.
-SQLAlchemy: 데이터베이스 상호작용을 위한 ORM.
-SQLite: 식품 항목을 저장하기 위한 데이터베이스.
-Pandas: Excel 파일에서 데이터베이스를 처리하고 초기화하기 위함.
+Flask: API를 구축하기 위한 웹 프레임워크.  
+SQLAlchemy: 데이터베이스 상호작용을 위한 ORM.  
+SQLite: 식품 항목을 저장하기 위한 데이터베이스.  
+Pandas: Excel 파일에서 데이터베이스를 처리하고 초기화하기 위함.  
 
 ## 기여
 기여는 환영합니다! 버그나 개선 사항에 대한 풀 리퀘스트나 이슈를 자유롭게 제출해주세요.
