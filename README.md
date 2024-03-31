@@ -14,7 +14,7 @@
 
 ```
 #저장소를 클론합니다:
-git clone <저장소-url>
+git clone https://github.com/ironfactory8684/food_api.git
 ```
 
 ```
